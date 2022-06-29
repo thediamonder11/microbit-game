@@ -40,3 +40,7 @@ basic.forever(function () {
         led.unplot(4, 4)
     }
 })
+basic.forever(function () {
+    led.plot(4, 4)
+    led.plot(4, 3)
+})
